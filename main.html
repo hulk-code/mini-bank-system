@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <h1 class="text-center text-5xl font-bold">
+      Moneyyyyyyyyyyyyyy!!!
+   </h1>
+   <main>
+      <section class="grid grid-cols-1 lg:grid-cols-3 gap-10 w-9/12 mx-auto mt-10">
+         <div class="bg-lime-200 text-3xl font-bold p-10 rounded-lg">
+            <p>Diposite</p>
+            <p>$ <span id="Diposite-field">00</span></p>
+
+         </div>
+         <div class="bg-lime-500 text-3xl font-bold p-10 rounded-lg">
+            <p>Withdraw</p>
+            <p>$ <span id="withdraw-field">00</span></p>
+
+         </div>
+         <div class="bg-lime-800 text-3xl font-bold p-10 rounded-lg">
+            <p>Balance</p>
+            <p>$ <span id="balance-total">1000</span></p>
+
+         </div>
+
+      </section>
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-10 w-9/12 mx-auto mt-20">
+         <div class="bg-lime-500 text-3xl font-bold p-10 rounded-lg">
+            <p class="mb-5">Please Diposite</p>
+            <input type="text" id="diposite-input" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-7" />
+            <button class="btn btn-active btn-neutral" id="diposite-btn">Diposite</button>
+
+         </div>
+         <div class="bg-lime-800 text-3xl font-bold p-10 rounded-lg">
+            <p class="mb-5">Please withdraw</p>
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-7" id="withdraw-input"/>
+            <button class="btn btn-active btn-neutral" id="withdraw-btn">WithDraw</button>
+
+         </div>
+      </section>
+   </main>
+
+
+   <script src="main.js"></script>
+   <script src="main1.js"></script>
+
+</body>
+</html>
